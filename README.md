@@ -2,8 +2,6 @@
 
 This is the work I completed for my CIS-171 Java course at Kirkwood Community College :school:. Below is a journal of all the things I learned throughout the class.:rocket:
 
-![Me](https://avatars.githubusercontent.com/u/17356362?v=4)
-
 ### Introduction
 
 In the Introduction unit we created accounts and installed software needed for the class. 
