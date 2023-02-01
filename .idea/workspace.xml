@@ -5,10 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1cf3200-df7b-4da8-a3bf-efa50b48366a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClassDemos/src/Jan31.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClassDemos/src/Jan31Part2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClassDemos/src/shapes/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClassDemos/src/shapes/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClassDemos/src/shapes/Shape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassDemos/src/DayOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDemos/src/DayOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassDemos/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDemos/src/Main.java" afterDir="false" />
     </list>
+    <list id="8de0c360-c514-43c9-8205-c8f6a2238ade" name="Changes by chris" comment="" />
+    <list id="30b8bbdf-9455-4985-87e4-40c66356327c" name="Changes by jacob" comment="" />
+    <list id="fec3024a-5313-4573-8c73-35b23ebb4a0f" name="Changes by jaredroberts" comment="" />
+    <list id="49f9a1e3-2973-47c8-b788-3b59fe3b543f" name="Changes by jjbec" comment="" />
+    <list id="95f3ead4-4a5a-4eca-81b3-d62fd91ce715" name="Changes by jmw66" comment="" />
+    <list id="def1cf37-e191-476f-8ef4-597e4ae1be63" name="Changes by jnice" comment="" />
+    <list id="d4102c82-d956-4e6f-b9f5-edc486ab6d49" name="Changes by keato" comment="" />
+    <list id="e91d2720-c3a4-40be-b908-18ea39f1f332" name="Changes by kirst" comment="" />
+    <list id="5c6dcea5-930b-437e-89f3-097f40351d8d" name="Changes by tenac" comment="" />
+    <list id="6618ab22-00f7-4352-b5b1-2d800c9cd6ae" name="Changes by thewo" comment="" />
+    <list id="59410a1e-37be-4157-844b-e51905e4d7ea" name="Changes by zalex" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +31,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,9 +70,23 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Solution">
+  <component name="RunManager" selected="Application.Jan31Part2">
     <configuration name="DayOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DayOne" />
+      <module name="ClassDemos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Jan31" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Jan31" />
+      <module name="ClassDemos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Jan31Part2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Jan31Part2" />
       <module name="ClassDemos" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,9 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Jan31Part2" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Jan31" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.DayOne" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -101,11 +139,33 @@
       <workItem from="1674605314977" duration="7000" />
       <workItem from="1674605393140" duration="10424000" />
       <workItem from="1675209238195" duration="1492000" />
+      <workItem from="1675210858055" duration="10891000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ClassDemos/src/Jan31Part2.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ClassDemos/src/shapes/Rectangle.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ClassDemos/src/Jan31Part2.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
