@@ -33,14 +33,14 @@ public class Jan31Part2 {
         System.out.println("The official mascot of Kirkwood Athletics is \"Sammy the Eagle\".");
 
         // calculate area of a circle
-        double radius = 2.5;
+        double radius = -2.5;
         double areaOfCircle = Math.PI * Math.pow(radius, 2);
         // calculate area of a cylinder
-        double heightOfCylinder = 6;
-        double areaOfCylinder = areaOfCircle * heightOfCylinder;
+        double heightOfCylinder = -6;
+        double volumeOfCylinder = areaOfCircle * heightOfCylinder;
         System.out.printf("A cylinder with a radius of %.1f " +
-                "and a height of %.1f has an area of %.2f\n",
-                radius, heightOfCylinder, areaOfCylinder);
+                "and a height of %.1f has a volume of %.2f\n",
+                radius, heightOfCylinder, volumeOfCylinder);
 
 
         for(int i = 0; i <= 5; i++) {

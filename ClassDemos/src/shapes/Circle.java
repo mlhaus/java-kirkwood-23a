@@ -6,11 +6,11 @@ public class Circle extends Shape {
 
     // constructors
     public Circle() {
-        super(0);
-        radius = 0;
+        super(1);
+        radius = 1;
     }
     public Circle(double radius) {
-        super(0);
+        super(1);
         setRadius(radius);
     }
 
@@ -20,8 +20,8 @@ public class Circle extends Shape {
     }
 
     public void setRadius(double radius) {
-        if(radius < 0) {
-            throw new IllegalArgumentException("Invalid radius");
+        if(radius <= 0) {
+            throw new IllegalArgumentException("Radius must be greater than 0");
         }
         this.radius = radius;
     }
