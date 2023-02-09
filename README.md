@@ -2,11 +2,15 @@
 
 This is the work I completed for my CIS-171 Java course at Kirkwood Community College :school:. Below is a journal of all the things I learned throughout the class.:rocket:
 
-### Introduction
+## Weeks 1 and 2
 
 In the Introduction unit we created accounts and installed software needed for the class. 
 
-Using [IntelliJ](https://www.jetbrains.com/idea/download/) we created a module with a __Java class__ inside it. Inside the class we created a main method that displays a message in the terminal. We can type "sout" followed by the tab key to generate the `System.out.println()` statement.
+Using [IntelliJ](https://www.jetbrains.com/idea/download/) we 
+created a module with a __Java class__ inside it. Inside 
+the class we created a main method that displays a message 
+in the terminal. We can type "sout" followed by the tab key 
+to generate the `System.out.println()` statement.
 
 ```java
 public class MyClass {
@@ -24,4 +28,9 @@ Going forward, whenever I complete a task I will __Add-Commit-Push (ACP)__
 * git commit -m "describe my work"
 * git push origin main
 
+## Weeks 3 and 4
+
+this is a paragraph
+
+this is another paragraph
 
