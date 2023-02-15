@@ -1,4 +1,10 @@
-import shapes.*;
+package ch1and2;
+
+import ch1and2.shapes.Circle;
+import ch1and2.shapes.Cylinder;
+import ch1and2.shapes.Rectangle;
+import ch1and2.shapes.Shape;
+import ch1and2.shapes.*;
 
 public class Main {
     public static void main(String[] args) {
