@@ -2,7 +2,7 @@ package ch3;
 
 public class IfvsSwitch {
     public static void main(String[] args) {
-        int annualIncome = 65000;
+        double annualIncome = 65000;
         double taxBracket = 0;
         String maritalStatus = "married";
         if(maritalStatus.equals("single")) {

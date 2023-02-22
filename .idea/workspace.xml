@@ -5,29 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1cf3200-df7b-4da8-a3bf-efa50b48366a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.JavaSyntax/src/en/codegym/task/pro/task03/task0304/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.JavaSyntax/src/en/codegym/task/pro/task04/task0410/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.JavaSyntax/src/en/codegym/task/pro/task04/task0413/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClassDemos/src/ch3/GuessTheLetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ClassDemos/src/ch3/IfvsSwitch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinalProject/FinalProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinalProject/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClassDemos/src/ch3/Stuff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/src/utilities/UserInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartnerAssignments/src/Assignment2Part1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartnerAssignments/src/Assignment2Part2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassDemos/src/DayOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDemos/src/ch1and2/DayOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassDemos/src/Feb6.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDemos/src/ch1and2/Feb6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassDemos/src/Jan31.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDemos/src/ch1and2/Jan31.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassDemos/src/Jan31Part2.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDemos/src/ch1and2/Jan31Part2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassDemos/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDemos/src/ch1and2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassDemos/src/shapes/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDemos/src/ch1and2/shapes/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassDemos/src/shapes/Cylinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDemos/src/ch1and2/shapes/Cylinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassDemos/src/shapes/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDemos/src/ch1and2/shapes/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClassDemos/src/shapes/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDemos/src/ch1and2/shapes/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassDemos/src/ch3/IfvsSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassDemos/src/ch3/IfvsSwitch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/src/Main.java" afterDir="false" />
     </list>
-    <list id="9d8e7a38-b0c5-4265-864e-e71f60401b2b" name="Changes by keato" comment="">
-      <change afterPath="$PROJECT_DIR$/1.JavaSyntax/src/en/codegym/task/pro/task04/task0405/Solution.java" afterDir="false" />
-    </list>
+    <list id="d293734c-8e2e-4db2-bab6-b55e6bda4520" name="Changes by baylee" comment="" />
+    <list id="a7dc9c94-5b02-4144-a630-c5e6e302168d" name="Changes by chris" comment="" />
+    <list id="6beebf0d-e0a5-4815-9c69-542e5a34e8ea" name="Changes by jacob" comment="" />
+    <list id="ad7e1506-3f5a-4cbd-b505-9e1d94b40e7e" name="Changes by jjbec" comment="" />
+    <list id="e9e13d16-7758-4472-84a5-8d6ec0a25cd6" name="Changes by jnice" comment="" />
+    <list id="76b6ab09-fbf0-437b-b5aa-2c75a4c5fdc7" name="Changes by keato" comment="" />
+    <list id="48a0238b-23c7-4a74-8f6e-2f8f582a70e8" name="Changes by tenac" comment="" />
+    <list id="f5ef2789-a91f-4ca2-b632-09bafe48babe" name="Changes by thewo" comment="" />
+    <list id="46f0fb90-e1f8-4413-b742-8081dcd1e75a" name="Changes by waemc" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,20 +70,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.en.codegym.task.pro.task04.task0405.Solution">
-    <configuration name="IfvsSwitch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch3.IfvsSwitch" />
-      <module name="ClassDemos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="FinalProject" />
@@ -103,6 +84,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="en.codegym.task.pro.task04.task0410.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Stuff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch3.Stuff" />
+      <module name="ClassDemos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Stuff" />
         <item itemvalue="Application.en.codegym.task.pro.task04.task0405.Solution" />
         <item itemvalue="Application.en.codegym.task.pro.task04.task0413.Solution" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.IfvsSwitch" />
       </list>
     </recent_temporary>
   </component>
@@ -174,6 +168,9 @@
       <workItem from="1676396761814" duration="58000" />
       <workItem from="1676418924413" duration="13910000" />
       <workItem from="1676439617337" duration="195000" />
+      <workItem from="1676475467401" duration="70000" />
+      <workItem from="1677011089267" duration="905000" />
+      <workItem from="1677023580555" duration="10494000" />
     </task>
     <servers />
   </component>
@@ -184,14 +181,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ClassDemos/src/ch1and2/Jan31Part2.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/ClassDemos/src/ch1and2/shapes/Circle.java</url>
           <line>3</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FinalProject/src/utilities/UserInput.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
