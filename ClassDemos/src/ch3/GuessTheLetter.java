@@ -30,7 +30,8 @@ public class GuessTheLetter {
 //                Ternary operator (a single line if statement)
 //                boolean ? valueIfTrue : valueIfFalse
                 String pluralize = counter == 1 ? "" : "es";
-                System.out.printf("Incorrect, you have %s guess%s remaining. ", counter, pluralize);
+                String output = String.format("Incorrect, you have %s guess%s remaining. ", counter, pluralize);
+                System.out.println(output);
 //                compareTo will return 0 if the strings are equal
 //                compareTo will return a positive number if the first string is greater than the second string.
 //                compareTo will return a negative number if the first string is less than the second string.
