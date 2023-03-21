@@ -1,5 +1,8 @@
 package utilities;
 
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeParseException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -53,5 +56,31 @@ public class UserInput {
         }
         return value;
     }
-
+    public static LocalDate getDate(Scanner scanner, String prompt) {
+        LocalDate date = null;
+        while(true) {
+            DateTimeFormatter format1 = DateTimeFormatter.ofPattern("M/d/yyyy");
+            DateTimeFormatter format2 = DateTimeFormatter.ofPattern("M-d-yyyy");
+            DateTimeFormatter format3 = DateTimeFormatter.ofPattern("M.d.yyyy");
+            System.out.print(prompt + " [M/D/YYYY]: ");
+            String value = scanner.nextLine();
+            try {
+                date = LocalDate.parse(value, format1);
+                break;
+            } catch(DateTimeParseException e1) {
+                try {
+                    date = LocalDate.parse(value, format2);
+                    break;
+                } catch(DateTimeParseException e2) {
+                    try {
+                        date = LocalDate.parse(value, format3);
+                        break;
+                    } catch(DateTimeParseException e3) {
+                        System.out.println("Invalid date format");
+                    }
+                }
+            }
+        }
+        return date;
+    }
 }

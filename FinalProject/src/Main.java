@@ -1,5 +1,7 @@
+import utilities.Helpers;
 import utilities.UserInput;
 
+import java.time.LocalDate;
 import java.util.Scanner;
 
 public class Main {
@@ -13,6 +15,8 @@ public class Main {
 //            int modelYear = UserInput.getInt(scanner, "Enter the car's model year", 1890, 2024);
 //            int currentTemp = UserInput.getInt(scanner, "Enter the current temperature");
 //            int numPages = UserInput.getInt(scanner, "Enter the number of pages", 1);
+            LocalDate birthday = UserInput.getDate(scanner, "Enter your birthday");
+            System.out.println(Helpers.printDate(birthday));
 
             System.out.print("Select an option 1-6: ");
             choice = scanner.nextInt();
