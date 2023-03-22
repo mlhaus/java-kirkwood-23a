@@ -5,11 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1cf3200-df7b-4da8-a3bf-efa50b48366a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/1.JavaSyntax/src/en/codegym/task/pro/task06/task0605/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinalProject/src/utilities/Helpers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.JavaSyntax/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.JavaSyntax/src/main/java/en/codegym/task/pro/task06/task0608/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.JavaSyntax/src/main/java/en/codegym/task/pro/task06/task0611/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1.JavaSyntax/src/main/java/en/codegym/task/pro/task06/task0613/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/src/data/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartnerAssignments/src/Assignment4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.JavaSyntax/1.JavaSyntax.iml" beforeDir="false" afterPath="$PROJECT_DIR$/1.JavaSyntax/1.JavaSyntax.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.JavaSyntax/src/com/codegym/task/task01/task0103/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/1.JavaSyntax/src/main/java/com/codegym/task/task01/task0103/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.JavaSyntax/src/com/codegym/task/task01/task0142/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/1.JavaSyntax/src/main/java/com/codegym/task/task01/task0142/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.JavaSyntax/src/en/codegym/task/pro/task03/task0304/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/1.JavaSyntax/src/main/java/en/codegym/task/pro/task03/task0304/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.JavaSyntax/src/en/codegym/task/pro/task04/task0405/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/1.JavaSyntax/src/main/java/en/codegym/task/pro/task04/task0405/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.JavaSyntax/src/en/codegym/task/pro/task04/task0410/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/1.JavaSyntax/src/main/java/en/codegym/task/pro/task04/task0410/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.JavaSyntax/src/en/codegym/task/pro/task04/task0413/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/1.JavaSyntax/src/main/java/en/codegym/task/pro/task04/task0413/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.JavaSyntax/src/en/codegym/task/pro/task05/task0504/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/1.JavaSyntax/src/main/java/en/codegym/task/pro/task05/task0504/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.JavaSyntax/src/en/codegym/task/pro/task05/task0505/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/1.JavaSyntax/src/main/java/en/codegym/task/pro/task05/task0505/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.JavaSyntax/src/en/codegym/task/pro/task05/task0508/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/1.JavaSyntax/src/main/java/en/codegym/task/pro/task05/task0508/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.JavaSyntax/src/en/codegym/task/pro/task05/task0515/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/1.JavaSyntax/src/main/java/en/codegym/task/pro/task05/task0515/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.JavaSyntax/src/en/codegym/task/pro/task05/task0516/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/1.JavaSyntax/src/main/java/en/codegym/task/pro/task05/task0516/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.JavaSyntax/src/en/codegym/task/pro/task06/task0605/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/1.JavaSyntax/src/main/java/en/codegym/task/pro/task06/task0605/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FinalProject/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FinalProject/src/utilities/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/src/utilities/UserInput.java" afterDir="false" />
     </list>
     <list id="3daa4108-6e35-4ac8-9f06-8895f27b0037" name="Changes by jjbec" comment="" />
     <list id="c09626eb-762c-4559-97ca-8f1fe34e5b8a" name="Changes by kirst" comment="" />
@@ -65,16 +86,10 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.en.codegym.task.pro.task06.task0605.Solution">
-    <configuration name="February28" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch5.February28" />
-      <module name="ClassDemos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Application.Assignment4">
+    <configuration name="Assignment4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Assignment4" />
+      <module name="PartnerAssignments" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -86,25 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="en.codegym.task.pro.task05.task0508.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="en.codegym.task.pro.task05.task0508.Solution" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="en.codegym.task.pro.task06.task0608.Solution" />
       <module name="1.JavaSyntax" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="en.codegym.task.pro.task05.task0508.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="en.codegym.task.pro.task05.task0516.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="en.codegym.task.pro.task05.task0516.Solution" />
-      <module name="1.JavaSyntax" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="en.codegym.task.pro.task05.task0516.*" />
+          <option name="PATTERN" value="en.codegym.task.pro.task06.task0608.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,13 +127,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="en.codegym.task.pro.task06.task0613.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="en.codegym.task.pro.task06.task0613.Solution" />
+      <module name="1.JavaSyntax" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="en.codegym.task.pro.task06.task0613.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Assignment4" />
+        <item itemvalue="Application.en.codegym.task.pro.task06.task0613.Solution" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.en.codegym.task.pro.task06.task0605.Solution" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.en.codegym.task.pro.task05.task0516.Solution" />
-        <item itemvalue="Application.February28" />
-        <item itemvalue="Application.en.codegym.task.pro.task05.task0508.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -174,6 +189,7 @@
       <workItem from="1678418979698" duration="2178000" />
       <workItem from="1679326848077" duration="1213000" />
       <workItem from="1679438751058" duration="292000" />
+      <workItem from="1679439085746" duration="10050000" />
     </task>
     <servers />
   </component>

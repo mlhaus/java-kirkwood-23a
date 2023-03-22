@@ -1,3 +1,4 @@
+import data.Book;
 import utilities.Helpers;
 import utilities.UserInput;
 
@@ -10,13 +11,10 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int choice = 0;
         outer: while(true) {
-//            String title = UserInput.getString(scanner, "Enter the book's title");
-//            boolean hardcover = UserInput.getBoolean(scanner, "Is this a hardcover book?");
-//            int modelYear = UserInput.getInt(scanner, "Enter the car's model year", 1890, 2024);
-//            int currentTemp = UserInput.getInt(scanner, "Enter the current temperature");
-//            int numPages = UserInput.getInt(scanner, "Enter the number of pages", 1);
-            LocalDate birthday = UserInput.getDate(scanner, "Enter your birthday");
-            System.out.println(Helpers.printDate(birthday));
+            Book book1 = new Book();
+            Book book2 = new Book("Java for Web Applications", 895,
+                    LocalDate.of(2020, 8, 25),
+                    59.99, false);
 
             System.out.print("Select an option 1-6: ");
             choice = scanner.nextInt();
