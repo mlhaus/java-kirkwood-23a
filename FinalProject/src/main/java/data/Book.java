@@ -2,7 +2,7 @@ package data;
 
 import java.time.LocalDate;
 
-public class Book {
+public class Book implements Comparable<Book> {
     private String title;
     private String author;
     private int numPages;
@@ -77,5 +77,10 @@ public class Book {
 
     public void setNewYorkTimesBestSeller(boolean newYorkTimesBestSeller) {
         this.newYorkTimesBestSeller = newYorkTimesBestSeller;
+    }
+
+    @Override
+    public int compareTo(Book o) {
+        return this.title.compareTo(o.title) * -1;
     }
 }

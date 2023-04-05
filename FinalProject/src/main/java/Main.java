@@ -4,44 +4,60 @@ import utilities.Helpers;
 import utilities.UserInput;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
         BookDAO.retrieveData();
-        BookDAO.getAllBooks();
-
         Scanner scanner = new Scanner(System.in);
         int choice = 0;
+        String[] options = {
+                "List all books",
+                "Sort the books by date",
+                "Find a book",
+                "Add a book",
+                "Update a book",
+                "Remove a book"
+        };
         outer: while(true) {
-            System.out.print("Select an option 1-6: ");
-            choice = scanner.nextInt();
-            scanner.nextLine();
+            choice = Helpers.getChoice(scanner,options);
             switch(choice) {
                 case 1:
-                    System.out.println("List all books");
+                    for(Book book: BookDAO.getBooks()) {
+                        System.out.println("Title: " + book.getTitle());
+                        System.out.println("Publication Date: " + Helpers.printDate(book.getPublicationDate()));
+                        System.out.println();
+                    }
                     break;
                 case 2:
-                    System.out.println("Sort the books");
+                    ArrayList<Book> books = BookDAO.getBooks();
+                    books.sort((b1, b2) -> b1.getPublicationDate().compareTo(b2.getPublicationDate()));
+                    for(Book book: books) {
+                        System.out.println("Title: " + book.getTitle());
+                        System.out.println("Publication Date: " + Helpers.printDate(book.getPublicationDate()));
+                        System.out.println();
+                    }
                     break;
                 case 3:
-                    System.out.println("Find a book");
+
                     break;
                 case 4:
-                    System.out.println("Add a book");
+
                     break;
                 case 5:
-                    System.out.println("Update a book");
+
                     break;
                 case 6:
-                    System.out.println("Remove a book");
+
                     break;
                 default:
                     break outer;
-            }
-        }
+            } // end switch
+            Helpers.pressEnterToContinue(scanner);
+        } // end while loop
         System.out.println("Good bye!");
         scanner.close();
-    }
+    } // end main method
 }
