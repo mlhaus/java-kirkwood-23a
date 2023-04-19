@@ -1,5 +1,7 @@
 import data.Book;
 import data.BookDAO;
+import tasks.Add;
+import tasks.Sort;
 import utilities.Helpers;
 import utilities.UserInput;
 
@@ -15,36 +17,31 @@ public class Main {
         int choice = 0;
         String[] options = {
                 "List all books",
-                "Sort the books by date",
+                "Sort the books",
                 "Find a book",
                 "Add a book",
                 "Update a book",
                 "Remove a book"
         };
         outer: while(true) {
+            System.out.println("** Main Menu **");
             choice = Helpers.getChoice(scanner,options);
             switch(choice) {
                 case 1:
+                    Helpers.printTableHeaderRow();
                     for(Book book: BookDAO.getBooks()) {
-                        System.out.println("Title: " + book.getTitle());
-                        System.out.println("Publication Date: " + Helpers.printDate(book.getPublicationDate()));
-                        System.out.println();
+                        Helpers.printObjectAsTableRow(book);
+                        System.out.println(book);
                     }
                     break;
                 case 2:
-                    ArrayList<Book> books = BookDAO.getBooks();
-                    books.sort((b1, b2) -> b1.getPublicationDate().compareTo(b2.getPublicationDate()));
-                    for(Book book: books) {
-                        System.out.println("Title: " + book.getTitle());
-                        System.out.println("Publication Date: " + Helpers.printDate(book.getPublicationDate()));
-                        System.out.println();
-                    }
+                    new Sort().handleTask(scanner);
                     break;
                 case 3:
 
                     break;
                 case 4:
-
+                    new Add().handleTask(scanner);
                     break;
                 case 5:
 

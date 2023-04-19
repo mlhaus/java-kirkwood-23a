@@ -12,7 +12,14 @@ public class Main {
         Shape shape2 = new Rectangle();
         // instantiating 4 Shape objects
         Circle circle1 = new Circle();
-        Circle circle2 = new Circle(3);
+        Circle circle2 = null;
+        try {
+            circle2 = new Circle(-1);
+        } catch(IllegalArgumentException e) {
+            System.out.println(e.getMessage());
+            circle2 = new Circle();
+        }
+
         Rectangle rect1 = new Rectangle();
         Rectangle rect2 = new Rectangle(3, 4);
         

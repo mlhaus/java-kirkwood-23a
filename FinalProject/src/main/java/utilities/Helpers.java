@@ -1,5 +1,7 @@
 package utilities;
 
+import data.Book;
+
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
@@ -11,12 +13,26 @@ public class Helpers {
     }
 
     public static String printDate(LocalDate date) {
-        DateTimeFormatter format = DateTimeFormatter.ofPattern("EEEE, MMMM d, yyyy");
+        DateTimeFormatter format = DateTimeFormatter.ofPattern("MMMM d, yyyy");
         String dateStr = date.format(format);
         return dateStr;
     }
     
     public static void pressEnterToContinue(Scanner scanner) {
         UserInput.getString(scanner, "Press enter to continue");
+    }
+
+    public static void printTableHeaderRow() {
+        System.out.printf("%-36s\t%-18s\t%6s\t%-12s\t%6s%n",
+                "Title","Publication Date","Pages","Best Seller","Price");
+    }
+
+    public static void printObjectAsTableRow(Book book) {
+        System.out.printf("%-36s\t%-18s\t%6d\t%-12s\t%6.2f%n",
+                book.getTitle(),
+                printDate(book.getPublicationDate()),
+                book.getNumPages(),
+                book.isNewYorkTimesBestSeller() ? "Yes" : "No",
+                book.getPrice());
     }
 }
