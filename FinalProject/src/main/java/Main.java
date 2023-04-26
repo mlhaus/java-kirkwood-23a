@@ -1,6 +1,7 @@
 import data.Book;
 import data.BookDAO;
 import tasks.Add;
+import tasks.Find;
 import tasks.Sort;
 import utilities.Helpers;
 import utilities.UserInput;
@@ -38,7 +39,7 @@ public class Main {
                     new Sort().handleTask(scanner);
                     break;
                 case 3:
-
+                    new Find().handleTask(scanner);
                     break;
                 case 4:
                     new Add().handleTask(scanner);

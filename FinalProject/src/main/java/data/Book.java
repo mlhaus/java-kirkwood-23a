@@ -2,7 +2,7 @@ package data;
 
 import java.time.LocalDate;
 
-public class Book implements Comparable<Book> {
+public class Book implements Comparable<Book>, Cloneable {
     private String title;
     private String author;
     private int numPages;
@@ -93,5 +93,10 @@ public class Book implements Comparable<Book> {
                 ", price=" + price +
                 ", bestSeller=" + newYorkTimesBestSeller +
                 '}';
+    }
+
+    @Override
+    public Object clone() throws CloneNotSupportedException {
+        return super.clone();
     }
 }

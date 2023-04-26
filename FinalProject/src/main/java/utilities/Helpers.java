@@ -4,6 +4,7 @@ import data.Book;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Helpers {
@@ -34,5 +35,18 @@ public class Helpers {
                 book.getNumPages(),
                 book.isNewYorkTimesBestSeller() ? "Yes" : "No",
                 book.getPrice());
+    }
+
+    // https://stackoverflow.com/a/715660
+    public static ArrayList<Book> cloneList(ArrayList<Book> list) {
+        ArrayList<Book> clone = new ArrayList<Book>(list.size());
+        for (Book item : list) {
+            try {
+                clone.add((Book)item.clone());
+            } catch (CloneNotSupportedException e) {
+                throw new RuntimeException(e);
+            }
+        }
+        return clone;
     }
 }
