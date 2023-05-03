@@ -2,6 +2,7 @@ package utilities;
 
 import data.Book;
 
+import java.text.NumberFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
@@ -18,23 +19,29 @@ public class Helpers {
         String dateStr = date.format(format);
         return dateStr;
     }
+
+    public static String printCurrency(double amt) {
+        // https://stackoverflow.com/a/13791422
+        NumberFormat formatter = NumberFormat.getCurrencyInstance();
+        return formatter.format(amt);
+    }
     
     public static void pressEnterToContinue(Scanner scanner) {
         UserInput.getString(scanner, "Press enter to continue");
     }
 
     public static void printTableHeaderRow() {
-        System.out.printf("%-36s\t%-18s\t%6s\t%-12s\t%6s%n",
+        System.out.printf("%-36s\t%-18s\t%6s\t%-11s\t%8s%n",
                 "Title","Publication Date","Pages","Best Seller","Price");
     }
 
     public static void printObjectAsTableRow(Book book) {
-        System.out.printf("%-36s\t%-18s\t%6d\t%-12s\t%6.2f%n",
+        System.out.printf("%-36s\t%-18s\t%6d\t%-11s\t%8s%n",
                 book.getTitle(),
                 printDate(book.getPublicationDate()),
                 book.getNumPages(),
                 book.isNewYorkTimesBestSeller() ? "Yes" : "No",
-                book.getPrice());
+                printCurrency(book.getPrice()));
     }
 
     // https://stackoverflow.com/a/715660

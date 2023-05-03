@@ -32,7 +32,6 @@ public class Main {
                     Helpers.printTableHeaderRow();
                     for(Book book: BookDAO.getBooks()) {
                         Helpers.printObjectAsTableRow(book);
-                        System.out.println(book);
                     }
                     break;
                 case 2:

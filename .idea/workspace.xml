@@ -5,27 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1cf3200-df7b-4da8-a3bf-efa50b48366a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/1.JavaSyntax/src/en/codegym/task/pro/task09/task0906/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/1.JavaSyntax/src/en/codegym/task/pro/task09/task0908/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FinalProject/src/main/java/tasks/Find.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClassDemos/src/ch1and2/shapes/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ClassDemos/src/finalreview/Example.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FinalProject/src/main/java/tasks/Mystery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FinalProject/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FinalProject/src/main/java/data/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/src/main/java/data/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject/src/main/java/tasks/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/src/main/java/tasks/Sort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FinalProject/src/main/java/utilities/Helpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/src/main/java/utilities/Helpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FinalProject/src/main/resources/books.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FinalProject/src/main/resources/books.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PartnerAssignments/src/Assignment4.java" beforeDir="false" afterPath="$PROJECT_DIR$/PartnerAssignments/src/Assignment4.java" afterDir="false" />
     </list>
-    <list id="aae8a2ec-6117-4f80-9403-965c60d2f6cd" name="Changes by 13198" comment="">
-      <change afterPath="$PROJECT_DIR$/1.JavaSyntax/src/en/codegym/task/pro/task09/task0905/Solution.java" afterDir="false" />
-    </list>
-    <list id="4850beff-4562-494f-ba74-d34fc08ac315" name="Changes by baylee" comment="" />
-    <list id="744ddeb9-2dad-468d-b772-d002dd3e1d9d" name="Changes by chris" comment="" />
-    <list id="d1977f01-6d4d-4939-8d95-8b767b7921fb" name="Changes by jacob" comment="" />
-    <list id="d01b09d8-f30e-4bcf-839b-b68097d6391f" name="Changes by jjbec" comment="" />
-    <list id="66e821f6-8229-4ec9-af8c-f38b393c2b05" name="Changes by jmw66" comment="" />
-    <list id="0a0ca33d-6a96-44b2-9c4f-457a28225036" name="Changes by jnice" comment="" />
-    <list id="13c3da4f-0085-481d-8be3-7d6516a09dc8" name="Changes by keato" comment="" />
-    <list id="c09626eb-762c-4559-97ca-8f1fe34e5b8a" name="Changes by kirst" comment="" />
-    <list id="83edc0e2-d832-44c7-9ad2-94b0cc30600b" name="Changes by tenac" comment="" />
-    <list id="fe0abbff-a071-4209-971c-86dd16643ccc" name="Changes by user" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +76,7 @@
       <recent name="C:\Users\k0519415\Java\tue-night-23\CodeGymTasks\1.JavaSyntax\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Example">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
       <option name="appName" />
       <option name="appServicePlanName" />
@@ -120,6 +109,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="finalreview.Example" />
+      <module name="ClassDemos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="finalreview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="FinalProject" />
@@ -133,19 +135,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="en.codegym.task.pro.task09.task0906.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ch1and2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch1and2.Main" />
-      <module name="ClassDemos" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ch1and2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Example" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.en.codegym.task.pro.task09.task0905.Solution" />
         <item itemvalue="Application.en.codegym.task.pro.task09.task0908.Solution" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.ch1and2.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +228,9 @@
       <workItem from="1681254388844" duration="9342000" />
       <workItem from="1681747874255" duration="646000" />
       <workItem from="1681857554821" duration="8013000" />
-      <workItem from="1682462561354" duration="11885000" />
+      <workItem from="1682462561354" duration="13000000" />
+      <workItem from="1682477788499" duration="213000" />
+      <workItem from="1683067035820" duration="9013000" />
     </task>
     <servers />
   </component>

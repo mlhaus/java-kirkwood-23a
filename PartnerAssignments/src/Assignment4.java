@@ -12,4 +12,8 @@ public class Assignment4 {
     public static void updateArr(int[] arr, int i, int value) {
         arr[i] = value;
     }
+    
+    public static void swap() {
+        
+    }
 }

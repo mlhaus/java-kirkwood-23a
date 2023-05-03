@@ -5,6 +5,7 @@ import data.BookDAO;
 import utilities.Helpers;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.Scanner;
 
 public class Sort implements TaskHandler{
@@ -35,11 +36,11 @@ public class Sort implements TaskHandler{
                     break;
                 case 3:
 //                    "Publication Date, old to new",
-                    books.sort((a, b) -> a.getPublicationDate().compareTo(b.getPublicationDate()));
+                    books.sort(Comparator.comparing(Book::getPublicationDate));
                     break;
                 case 4:
 //                    "Publication Date, new to old",
-                    books.sort((a, b) -> a.getPublicationDate().compareTo(b.getPublicationDate()) * -1);      
+                    books.sort((a, b) -> a.getPublicationDate().compareTo(b.getPublicationDate()) * -1);
                     break;
                 case 5:
 //                    "Price, low to high",
